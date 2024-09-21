@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr-FR">	
+	<head>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css"/>
+        <script src="javascript/ecranOObjet.js" defer></script>
+		<title>Calculatrice</title>	
+    </head>
+	<body>
+        <div class="calculate-background">
+            <!-- Ecran de la calculatrice -->
+            <div class="calculate-screen">
+                <span id="screen"></span>
+            </div>
+
+            <!-- Background du clavier -->
+            <div class="keyboard-background">
+                
+                <!-- Background des boutons mémoires -->
+                <div class="m-buttons-background">
+                    <!-- Bouton mémoire MC -->
+                    <div class="text memory-button clickJS" id="memoryClear">
+                        MC
+                    </div>
+
+                    <!-- Bouton mémoire MR -->
+                    <div class="text memory-button clickJS" id="memoryRecall">
+                        MR
+                    </div>
+
+                    <!-- Bouton mémoire MS -->
+                    <div class="text memory-button clickJS" id="memoryStore">
+                        MS
+                    </div>
+   
+                    <!-- Bouton mémoire M+ -->
+                    <div class="text memory-button clickJS" id="memoryAdd">
+                        M+
+                    </div>
+
+                    <!-- Bouton mémoire M- -->
+                    <div class="text memory-button clickJS" id="memorySubtract">
+                        M-
+                    </div>
+                </div>
+
+                <div class="top-line">
+                    <!-- Bouton CE -->
+                    <div class="top-text top-button red clickJS" id="clearLine">
+                        C
+                    </div>
+
+                    <!-- Bouton C -->
+                    <div class="top-text top-button clickJS" id="clearEntree">
+                        CE
+                    </div>
+
+                    <!-- Bouton flèche (supprimer une seul donnée) -->
+                    <div class="top-text top-button red clickJS" id="clearOne">
+                        ⭠
+                    </div>
+                </div>
+                
+                <div class="line">
+                    <!-- Bouton 7 -->
+                    <div class="text button clickJS" id="7">
+                        7
+                    </div>
+
+                    <!-- Bouton 8 -->
+                    <div class="text button clickJS" id="8">
+                        8
+                    </div>
+
+                    <!-- Bouton 9 -->
+                    <div class="text button clickJS" id="9">
+                        9
+                    </div>
+
+                    <!-- Bouton diviser -->
+                    <div class="text button clickJS" id="÷">
+                        ÷
+                    </div>
+
+                    <!-- Bouton plus ou moins -->
+                    <div class="text button clickJS" id="±">
+                        ±
+                    </div>
+                </div>
+
+                <div class="line">
+                    <!-- Bouton 4 -->
+                    <div class="text button clickJS" id="4">
+                        4
+                    </div>
+
+                    <!-- Bouton 5 -->
+                    <div class="text button clickJS" id="5">
+                        5
+                    </div>
+
+                    <!-- Bouton 6 -->
+                    <div class="text button clickJS" id="6">
+                        6
+                    </div>
+
+                    <!-- Bouton multiplier -->
+                    <div class="text button clickJS" id="×">
+                        ×
+                    </div>
+
+                    <!-- Bouton pourcentage -->
+                    <div class="text button clickJS" id="%">
+                        %
+                    </div>
+                </div>
+
+                <div class="line">
+                    <div class="box1">
+                        <div class="line-without-space">
+                            <!-- Bouton 1 -->
+                            <div class="last-button text clickJS" id="1">
+                                1
+                            </div>
+
+                            <!-- Bouton 2 -->
+                            <div class="text last-button clickJS" id="2">
+                                2
+                            </div>
+   
+                            <!-- Bouton 3 -->
+                            <div class="text last-button clickJS" id="3">
+                                3
+                            </div>
+                        
+                            <!-- Bouton soustraction -->
+                            <div class="text last-button clickJS" id="-">
+                                -
+                            </div>
+                        </div>
+                    
+                        <div class="box2">
+                            <div class="line-without-space">
+                                <!-- Bouton zéro -->
+                                <div class="zero-text zero-button clickJS" id="0">
+                                    0
+                                </div>
+                            
+                                <!-- Bouton point/virgule -->
+                                <div class="text last-button clickJS" id=".">
+                                    .
+                                </div>
+                            
+                                <!-- Bouton addition -->
+                                <div class="text last-button clickJS" id="+">
+                                    +
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box3">
+                        <!-- Bouton égals -->
+                        <div class="equals-text equals-button clickJS" id="=">
+                            =
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
